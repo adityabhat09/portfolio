@@ -6,7 +6,7 @@ import adityaimg111 from '../../assets/adityaimg111.png';
 
 const Hero = () => {
   return (
-    <div className="relative h-[calc(100vh-90px)] w-full">
+    <div className="relative h-10/12 w-full">
       {/* Background Image */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
