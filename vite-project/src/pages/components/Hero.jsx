@@ -1,7 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
-import adityaimg11 from '../../assets/adityaimg11.jpeg';
-import adityaimg2 from '../../assets/adityaimg2.jpeg';
+
 import adityaimg111 from '../../assets/adityaimg111.png';
 
 const Hero = () => {
