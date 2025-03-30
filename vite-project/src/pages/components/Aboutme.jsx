@@ -63,13 +63,13 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-lg  overflow-hidden max-w-6xl mx-auto pt-16">
+    <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden max-w-6xl mx-auto pt-16">
       {/* Left side - Image */}
-      <div className="md:w-2/5 relative">
+      <div className="md:w-2/5 relative h-auto">
         <img 
           src={aditya2nd}
           alt="Profile" 
-          className="w-full h-full object-cover"
+          className="w-full h-[500px] object-cover object-top"
         />
       </div>
       
