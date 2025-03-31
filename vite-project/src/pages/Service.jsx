@@ -1,5 +1,6 @@
 import React from 'react';
 import { Monitor, Layers, Users, Smartphone, Globe } from 'lucide-react';
+import Footer from './components/Footer';
 
 const Service = () => {
     return (
@@ -117,6 +118,257 @@ const Service = () => {
                     </div>
                 </div>
             </section>
+
+
+
+            {/* Services Section */}
+            <section className="py-16 px-6">
+                <div className="container mx-auto text-center mb-16">
+                    <h2 className="text-6xl font-bold mb-4">Strategy</h2>
+                    <p className="text-gray-600 text-2xl max-w-2xl mx-auto">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration.
+                    </p>
+                </div>
+
+                <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Card 1 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Business Strategy</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Layers size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Users size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 4 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Mobile App Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 5 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 6 - With hover effect like the others */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            {/* Services Section */}
+            <section className="py-16 px-6">
+                <div className="container mx-auto text-center mb-16">
+                    <h2 className="text-6xl font-bold mb-4">Creative Agency</h2>
+                    <p className="text-gray-600 text-2xl max-w-2xl mx-auto">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration.
+                    </p>
+                </div>
+
+                <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Card 1 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Business Strategy</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Layers size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Users size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 4 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Mobile App Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 5 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 6 - With hover effect like the others */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            {/* Services Section */}
+            <section className="py-16 px-6">
+                <div className="container mx-auto text-center mb-16">
+                    <h2 className="text-6xl font-bold mb-4">Development</h2>
+                    <p className="text-gray-600 text-2xl max-w-2xl mx-auto">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration.
+                    </p>
+                </div>
+
+                <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Card 1 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Business Strategy</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Layers size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="group border border-gray-200 p-8 rounded-lg transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Users size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 4 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Mobile App Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 5 */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Globe size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Website Development</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+
+                    {/* Card 6 - With hover effect like the others */}
+                    <div className="group border border-gray-200 p-8 rounded transition-all duration-300 hover:bg-red-500">
+                        <div className="text-red-500 mb-4 group-hover:text-white">
+                            <Monitor size={28} />
+                        </div>
+                        <h3 className="text-xl font-bold mb-4 group-hover:text-white">Marketing & Reporting</h3>
+                        <p className="text-gray-600 group-hover:text-white">
+                            I throw myself down among the tall grass by the stream as I lie close to the earth.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            {/* footer */}
+            <Footer/>
+
+            
         </div>
     );
 };
