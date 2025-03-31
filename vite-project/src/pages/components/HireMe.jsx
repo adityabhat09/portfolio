@@ -8,10 +8,11 @@ const HireMe = () => {
         <div className="w-full md:w-1/2">
           <h1 className="text-6xl font-bold text-gray-900 mb-6">Hire Me.</h1>
           <p className="text-lg text-gray-700 mb-6">
-            I am available for freelance work. Connect with me via phone:
-            <span className="font-semibold"> 01923 088574</span> or email:{' '}
-            <span className="font-semibold">admin@example.com</span>
-          </p>
+            I am available for freelance work. Connect with me via{' '}
+            <span className="inline-block font-semibold">01923 088574</span> or email:{' '}
+            <span className="inline-block font-semibold">admin@example.com</span>
+        </p>
+
 
           <form className="space-y-4">
             <div>
