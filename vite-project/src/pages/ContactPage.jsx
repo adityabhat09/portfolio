@@ -1,6 +1,6 @@
-// https://plus.unsplash.com/premium_photo-1661778490723-371305b4fb06?q=80&w=4470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-
 import React from 'react';
+import Footer from './components/Footer';
+
 
 const ContactPage = () => {
     return (
@@ -46,8 +46,7 @@ const ContactPage = () => {
             </div>
 
             {/* Contact Info Cards */}
-            {/* Contact Info Cards */}
-            <div className="bg-gray-100 py-32 ">
+            <div className="bg-gray-100 py-32">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         {/* Phone Card */}
@@ -102,9 +101,8 @@ const ContactPage = () => {
                 </div>
             </div>
 
-
             {/* Contact Form Section */}
-            <div className="pt-32 pb-16  bg-white">
+            <div className="pt-32 pb-16 bg-white">
                 <div className="container mx-auto px-28">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
@@ -145,7 +143,7 @@ const ContactPage = () => {
                                 <div className="mb-6">
                                     <textarea
                                         placeholder="Your Message"
-                                        rows="4"
+                                        rows={4}
                                         className="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-500"
                                     ></textarea>
                                 </div>
@@ -165,6 +163,9 @@ const ContactPage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Footer */}
+            <Footer />
         </div>
     );
 };
