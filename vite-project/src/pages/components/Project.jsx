@@ -51,8 +51,8 @@ const Project = () => {
     <div className="py-16 px-4 max-w-7xl mx-auto">
       {/* Heading section */}
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold text-gray-900 mb-4">My Latest Project</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        <h2 className="text-6xl font-bold text-gray-900 mb-4">My Latest Project</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           There are many variations of passages of Lorem Ipsum available, but the 
           majority have suffered alteration.
         </p>

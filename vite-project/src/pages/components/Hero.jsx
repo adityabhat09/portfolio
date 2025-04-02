@@ -59,10 +59,10 @@ const Hero = () => {
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col justify-center h-[calc(100vh-170px)] pl-32">
-        <div className="max-w-3xl">
-          <div className="uppercase tracking-wider text-sm font-medium mb-4">FREELANCE DIGITAL DESIGNER</div>
-          <h1 className="text-7xl font-bold mb-6 leading-tight">
-            Hello, I'm <span className="text-pink-600">Aditya</span> Welcome to my World.
+        <div className="max-w-4xl">
+          <div className="uppercase tracking-wider text-xl font-medium mb-4">FREELANCE DIGITAL DESIGNER</div>
+          <h1 className="text-7xl font-bold mb-6 leading-tight ">
+            Hello I'm <span className="text-pink-600">Aditya,</span> <br/> Welcome to my World.
           </h1>
         </div>
       </div>
