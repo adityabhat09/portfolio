@@ -63,34 +63,34 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden max-w-6xl mx-auto pt-16">
+    <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden max-w-7xl mx-auto pt-4 sm:pt-8 md:pt-16 px-4 sm:px-6 md:px-6 md:gap-8 lg:gap-12">
       {/* Left side - Image */}
-      <div className="md:w-2/5 relative h-auto">
+      <div className="w-full md:w-6/12 lg:w-1/2 relative shadown-lg ">
         <img 
           src={aditya2nd}
           alt="Profile" 
-          className="w-full h-[500px] object-cover object-top"
+          className="rounded-lg sm:rounded-xl md:rounded-2xl w-full h-[250px] sm:h-[350px] md:h-[600px] object-cover object-center shadow-lg "
         />
       </div>
       
       {/* Right side - Content */}
-      <div className="md:w-3/5 p-8">
-        <h1 className="text-5xl font-bold text-gray-800 mb-6">About Me</h1>
+      <div className="w-full md:w-6/12 lg:w-1/2 p-4 sm:p-6 md:p-8">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-3 sm:mb-4 md:mb-6">About Me</h1>
         
-        <p className="text-gray-600 mb-8">
+        <p className="text-gray-600 text-base sm:text-lg mb-4 sm:mb-6 md:mb-8">
           There are many variations of passages of Lorem Ipsum available, but the 
           majority have suffered <a href="#" className="text-pink-500">alteration</a> in some form, by injected 
           humour, or randomised words which dont look even slightly believable. If you 
           are going to use a passage of Lorem Ipsum,
         </p>
         
-        {/* Tabs */}
-        <div className="border-b border-gray-200 mb-6">
-          <div className="flex">
+        {/* Tabs - Scrollable on mobile */}
+        <div className="border-b border-gray-200 mb-4 sm:mb-6 overflow-x-auto">
+          <div className="flex whitespace-nowrap min-w-full">
             {tabs.map((tab) => (
               <button
                 key={tab}
-                className={`py-2 px-4 font-medium text-sm ${
+                className={`py-2 px-3 sm:px-4 font-medium text-sm sm:text-base ${
                   activeTab === tab
                     ? 'text-pink-500 border-b-2 border-pink-500'
                     : 'text-gray-500 hover:text-gray-700'
@@ -104,23 +104,24 @@ const AboutMe = () => {
         </div>
         
         {/* Tab Content */}
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-6">
           {tabContent[activeTab].map((item, index) => (
-            <div key={index} className="mb-4">
-              <h3 className="text-gray-700 font-medium">{item.title}</h3>
-              <p className="text-gray-500">{item.description}</p>
+            <div key={index} className="mb-3 sm:mb-4">
+              <h3 className="text-gray-700 font-medium text-base sm:text-lg">{item.title}</h3>
+              <p className="text-gray-500 text-sm sm:text-base">{item.description}</p>
             </div>
           ))}
         </div>
         
-        {/* Scroll to top button - bottom right */}
+        {/* Scroll to top button - bottom right, hidden on small screens when not needed */}
         <button 
-          className="fixed bottom-6 right-6 bg-white rounded-full p-2 shadow-md"
+          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-white rounded-full p-2 shadow-md z-10 hover:bg-gray-100 transition-colors"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Scroll to top"
         >
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
-            className="h-6 w-6 text-gray-500" 
+            className="h-5 w-5 sm:h-6 sm:w-6 text-gray-500" 
             fill="none" 
             viewBox="0 0 24 24" 
             stroke="currentColor"
