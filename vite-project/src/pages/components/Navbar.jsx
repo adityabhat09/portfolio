@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="rounded-b-2xl fixed top-0 left-0 w-full z-50 bg-white/20 backdrop-blur-xs shadow-md">
+    <nav className="rounded-b-2xl fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-xs shadow-md">
       <div className="w-full flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4">
         
         {/* Logo */}
@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="#" aria-label="Instagram"><Instagram size={18} className="hover:text-pink-600" /></a>
             <a href="#" aria-label="Twitter"><Twitter size={18} className="hover:text-blue-400" /></a>
           </div>
-          <button className="hidden sm:block border border-gray-300 border-2 px-3 py-1.5 md:px-4 md:py-2 rounded text-gray-800 hover:bg-gray-100 transition-colors">BUY NOW</button>
+          <button className="hidden sm:block border border-gray-300 border-2 px-3 py-1.5 md:px-4 md:py-2 rounded text-gray-900 hover:bg-gray-100 transition-colors">BUY NOW</button>
           
           {/* Mobile menu button */}
           <button 
