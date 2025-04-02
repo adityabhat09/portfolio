@@ -6,7 +6,7 @@ const Service = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Navigation */}
-            <nav className="bg-gray-900 text-white py-4">
+            {/* <nav className="bg-gray-900 text-white py-4">
                 <div className="container mx-auto px-6 flex items-center justify-between">
                     <div className="flex items-center">
                         <div className="mr-4">
@@ -28,10 +28,10 @@ const Service = () => {
                         BUY NOW
                     </button>
                 </div>
-            </nav>
+            </nav> */}
 
             {/* Hero Section - 50vh height */}
-            <section className="bg-gray-900 text-white h-[50vh] flex flex-col items-center justify-center">
+            <section className="bg-gray-900 text-white h-[60vh] flex flex-col items-center justify-center">
                 <h1 className="text-6xl font-bold text-red-500 mb-4">Service</h1>
                 <div className="flex items-center">
                     <a href="#" className="text-white hover:text-red-500">Home</a>

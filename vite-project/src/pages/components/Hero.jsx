@@ -7,16 +7,18 @@ const Hero = () => {
   return (
     <div className="relative h-10/12 w-full">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${adityaimg111})`,
         }}>
       </div>
-      
+        <div className="py-8">
+
+        </div>
       {/* Header/Navigation */}
-      <div className="relative z-10 w-full flex justify-between items-center px-8 py-4">
-        {/* Logo */}
+      {/* <div className="relative z-10 w-full flex justify-between items-center px-8 py-4">
+        Logo
         <div className="flex items-center">
           <div className="bg-black rounded-full p-2 mr-4">
             <div className="flex items-center justify-center h-12 w-12 rounded-full overflow-hidden">
@@ -34,8 +36,8 @@ const Hero = () => {
             <a href="#" className="font-medium">Contact</a>
           </nav>
         </div>
-        
-        {/* Right Side - Social & CTA */}
+
+        Right Side - Social & CTA
         <div className="flex items-center space-x-6">
           <div className="hidden md:flex items-center space-x-4">
             <a href="#" aria-label="Facebook">
@@ -53,8 +55,8 @@ const Hero = () => {
           </div>
           <button className="border border-gray-300 border-2 px-4 py-2 rounded text-white">BUY NOW</button>
         </div>
-      </div>
-      
+      </div> */}
+
       {/* Main Content */}
       <div className="relative z-10 flex flex-col justify-center h-[calc(100vh-170px)] pl-32">
         <div className="max-w-3xl">

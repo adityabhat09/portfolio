@@ -1,24 +1,27 @@
 import React from 'react';
 import { Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container ">
+      <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Left Section */}
-          <div className="bg-gradient-to-r from-red-600 to-red-500 p-20 md:p-32">
+          <div className="bg-gradient-to-r from-red-600 to-red-500 p-20 md:p-32 rounded-r-4xl">
             <div className="max-w-md">
               <p className="text-sm tracking-wider mb-4">READY TO DO THIS</p>
               <h2 className="text-6xl font-bold text-white mb-8 leading-tight">Let's get<br />to work</h2>
-              <button className="border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-red-500 transition duration-300">
-                CONTACT US
-              </button>
+              <Link to="/contact">
+                <button className="border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-red-500 transition duration-300">
+                  CONTACT US
+                </button>
+              </Link>
             </div>
           </div>
 
           {/* Right Section */}
-          <div className="p-20">
+          <div className="p-20 relative">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
               <div>
                 <h3 className="text-xl font-semibold mb-8">Quick Link</h3>
@@ -50,11 +53,13 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+
+            {/* Copyright moved to bottom of the blue/dark box */}
+            <div className="absolute bottom-0 left-12 right-0 p-4 text-left pb-9">
+              <p className="text-gray-400 text-sm">Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="container mx-auto px-4 py-2 border-t border-gray-800">
-        <p className="text-gray-400 text-center">Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
       </div>
     </footer>
   );

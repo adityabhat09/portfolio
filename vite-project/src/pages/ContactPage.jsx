@@ -6,9 +6,12 @@ const ContactPage = () => {
     return (
         <div className="font-sans">
             {/* Hero Section with Overlay Navigation */}
-            <div className="relative bg-gray-800 h-[75vh] flex items-center justify-center">
+            <div className="relative bg-gray-800 h-[80vh] flex items-center justify-center">
                 {/* Navigation Bar - Transparent Overlay */}
-                <nav className="absolute top-0 left-0 right-0 z-20 py-4 px-6 flex items-center justify-between">
+                <div className="py-24">
+
+                </div>
+                {/* <nav className="absolute top-0 left-0 right-0 z-20 py-4 px-6 flex items-center justify-between">
                     <div className="flex items-center">
                         <div className="flex items-center mr-10">
                             <div className="h-10 w-10 bg-black rounded-md flex items-center justify-center">
@@ -28,7 +31,7 @@ const ContactPage = () => {
                     <button className="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded text-sm">
                         BUY NOW
                     </button>
-                </nav>
+                </nav> */}
 
                 <div className="absolute inset-0">
                     <img

@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import LandingPage from './pages/LandingPage';
 import ContactPage from './pages/ContactPage';
 import Service from './pages/Service';
+import Navbar from './pages/components/Navbar';
 // import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <Router>
+      <Navbar/>
       <Routes>
         {/* Route to Landing Page */}
         <Route path="/" element={<LandingPage />} />
